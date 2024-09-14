@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas de Control de Versiones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Herramientas de Control de Versiones</h1>
+            <nav>
+                <ul>
+                    <li><a href="#git">Git</a></li>
+                    <li><a href="#svn">Subversion (SVN)</a></li>
+                    <li><a href="#mercurial">Mercurial</a></li>
+                    <li><a href="#comparison">Comparación</a></li>
+                    <li><a href="#advanced">Características Avanzadas</a></li>
+                    <li><a href="#use-cases">Casos de Uso</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="git">
+            <div class="container">
+                <h2>Git</h2>
+                <img src="https://miro.medium.com/v2/resize:fit:1024/1*hJrIUECIKnf_Brt2Vmw1vg.jpeg" alt="Logo de Git">
+                <p>Git es un sistema de control de versiones distribuido que permite a los desarrolladores trabajar en sus propios repositorios locales y sincronizar cambios con un repositorio central.</p>
+                <ul>
+                    <li><strong>Modelo:</strong> Distribuido</li>
+                    <li><strong>Branching:</strong> Avanzado y flexible</li>
+                    <li><strong>Merging:</strong> Eficiente y poderoso</li>
+                    <li><strong>Historial:</strong> Completo y detallado</li>
+                    <li><strong>Desempeño:</strong> Rápido en operaciones locales</li>
+                </ul>
+                <h3>Características Avanzadas</h3>
+                <ul>
+                    <li><strong>Desempeño en Repositorios Grandes:</strong> Eficaz con grandes repositorios.</li>
+                    <li><strong>Staging Area:</strong> Prepara cambios antes del commit.</li>
+                    <li><strong>Rebase:</strong> Reescribe el historial de commits.</li>
+                </ul>
+                <h3>Casos de Uso Comunes</h3>
+                <ul>
+                    <li><strong>Desarrollo de Software:</strong> Amplio uso en proyectos de código abierto y en empresas.</li>
+                    <li><strong>Colaboración:</strong> Facilita pull requests y revisiones de código.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="svn">
+            <div class="container">
+                <h2>Subversion (SVN)</h2>
+                <img src="https://integrators.weebly.com/uploads/1/7/6/0/17600253/3087570_orig.jpg" alt="Logo de SVN">
+                <p>Subversion (SVN) es un sistema de control de versiones centralizado que almacena todos los cambios en un repositorio centralizado, al que todos los desarrolladores tienen acceso.</p>
+                <ul>
+                    <li><strong>Modelo:</strong> Centralizado</li>
+                    <li><strong>Branching:</strong> Básico, lineal</li>
+                    <li><strong>Merging:</strong> Puede ser más complicado</li>
+                    <li><strong>Historial:</strong> Centralizado, con historial lineal</li>
+                    <li><strong>Desempeño:</strong> Más lento en operaciones locales</li>
+                </ul>
+                <h3>Características Avanzadas</h3>
+                <ul>
+                    <li><strong>Control de Acceso:</strong> Define permisos de lectura y escritura.</li>
+                    <li><strong>Versiones de Directorios:</strong> Gestiona versiones de archivos y directorios.</li>
+                    <li><strong>Merge de Ramas:</strong> Herramientas para fusionar ramas.</li>
+                </ul>
+                <h3>Casos de Uso Comunes</h3>
+                <ul>
+                    <li><strong>Proyectos Empresariales:</strong> Uso en organizaciones con control centralizado.</li>
+                    <li><strong>Gestión de Documentos:</strong> Ideal para versiones de documentos.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="mercurial">
+            <div class="container">
+                <h2>Mercurial</h2>
+                <img src="https://superdevresources.com/wp-content/uploads/2015/01/mercurial-logo.png" alt="Logo de Mercurial">
+                <p>Mercurial es un sistema de control de versiones distribuido que se enfoca en la simplicidad y facilidad de uso. Ofrece muchas de las mismas características que Git, pero con un enfoque en una interfaz de usuario coherente y una configuración sencilla.</p>
+                <ul>
+                    <li><strong>Modelo:</strong> Distribuido</li>
+                    <li><strong>Branching:</strong> Avanzado y flexible</li>
+                    <li><strong>Merging:</strong> Eficiente y más simple</li>
+                    <li><strong>Historial:</strong> Completo y detallado</li>
+                    <li><strong>Desempeño:</strong> Rápido en operaciones locales</li>
+                </ul>
+                <h3>Características Avanzadas</h3>
+                <ul>
+                    <li><strong>Interfaz de Línea de Comandos Coherente:</strong> Experiencia de usuario consistente.</li>
+                    <li><strong>Extensiones:</strong> Para funcionalidades adicionales.</li>
+                    <li><strong>Performance:</strong> Eficiente en grandes repositorios.</li>
+                </ul>
+                <h3>Casos de Uso Comunes</h3>
+                <ul>
+                    <li><strong>Proyectos de Código Abierto:</strong> Utilizado por su simplicidad.</li>
+                    <li><strong>Desarrollo en Equipos Pequeños:</strong> Adecuado para sistemas distribuidos sin complejidad.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="comparison">
+            <div class="container">
+                <h2>Comparación de Características</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Característica</th>
+                            <th>Git</th>
+                            <th>Subversion (SVN)</th>
+                            <th>Mercurial</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Modelo</td>
+                            <td>Distribuido</td>
+                            <td>Centralizado</td>
+                            <td>Distribuido</td>
+                        </tr>
+                        <tr>
+                            <td>Branching</td>
+                            <td>Avanzado y flexible</td>
+                            <td>Básico, lineal</td>
+                            <td>Avanzado y flexible</td>
+                        </tr>
+                        <tr>
+                            <td>Merging</td>
+                            <td>Eficiente y poderoso</td>
+                            <td>Puede ser más complicado</td>
+                            <td>Eficiente y más simple</td>
+                        </tr>
+                        <tr>
+                            <td>Historial</td>
+                            <td>Completo y detallado</td>
+                            <td>Centralizado, con historial lineal</td>
+                            <td>Completo y detallado</td>
+                        </tr>
+                        <tr>
+                            <td>Desempeño</td>
+                            <td>Rápido en operaciones locales</td>
+                            <td>Más lento en operaciones locales</td>
+                            <td>Rápido en operaciones locales</td>
+                        </tr>
+                        <tr>
+                            <td>Interfaz</td>
+                            <td>Línea de comandos y GUI disponibles</td>
+                            <td>Línea de comandos y GUI disponibles</td>
+                            <td>Línea de comandos y GUI disponibles</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+       <section>
+            <h2>Video de YouTube</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ohNkP2_9Duw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Herramientas de Control de Versiones.</p>
+            <p>Contacto"VR23022"</P>
+
+    </footer>
+</body>
+</html>
